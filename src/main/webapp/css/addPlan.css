@@ -1,0 +1,144 @@
+@charset "ISO-8859-1";
+
+/* Admin Plan Form Specific Styles */
+.admin-plan-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-plan-title {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 15px;
+}
+
+.admin-plan-form-group {
+    margin-bottom: 20px;
+}
+
+.admin-plan-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #444;
+}
+
+.admin-plan-input,
+.admin-plan-textarea,
+.admin-plan-select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.admin-plan-textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.admin-plan-input-group {
+    display: flex;
+    align-items: center;
+}
+
+.admin-plan-currency-symbol {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.admin-plan-btn-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.admin-plan-btn {
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+.admin-plan-btn-primary {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.admin-plan-btn-primary:hover {
+    background-color: #45a049;
+}
+
+.admin-plan-btn-secondary {
+    background-color: #f44336;
+    color: white;
+}
+
+.admin-plan-btn-secondary:hover {
+    background-color: #d32f2f;
+}
+
+.admin-plan-file-input-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+}
+
+.admin-plan-file-input-label {
+    background-color: #6c757d;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.admin-plan-file-input-label:hover {
+    background-color: #5a6268;
+}
+
+.admin-plan-file-name {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #666;
+}
+
+.admin-plan-file-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.admin-plan-preview-container {
+    margin-top: 10px;
+    text-align: center;
+    display: none;
+}
+
+.admin-plan-preview-image {
+    max-width: 100%;
+    max-height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
